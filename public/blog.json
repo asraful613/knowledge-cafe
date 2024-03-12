@@ -1,0 +1,68 @@
+[
+    {
+      "id": 12345,
+      "cover": "https://i.ibb.co/bX6Z6YW/online-message-blog-chat-communication-envelop-graphic-icon-concept.jpg",
+      "title": "The Mystery of Emerald Lake",
+      "author": "Samantha Green",
+      "author_img": "https://example.com/author_image_samantha.jpg",
+      "posted_date": "2024-03-12",
+      "reading_time": 25,
+      "hashtags": {
+        "genres": ["Mystery", "Adventure"],
+        "themes": ["Exploration", "Intrigue"]
+      }
+    },
+    {
+      "id": 67890,
+      "cover": "https://example.com/cover_image_2.jpg",
+      "title": "Beyond the Horizon",
+      "author": "Michael Smith",
+      "author_img": "https://example.com/author_image_michael.jpg",
+      "posted_date": "2024-03-11",
+      "reading_time": 30,
+      "hashtags": {
+        "genres": ["Science Fiction", "Adventure"],
+        "themes": ["Space Exploration", "Discovery"]
+      }
+    },
+    {
+      "id": 24680,
+      "cover": "https://example.com/cover_image_3.jpg",
+      "title": "The Forgotten Kingdom",
+      "author": "Emily Johnson",
+      "author_img": "https://example.com/author_image_emily.jpg",
+      "posted_date": "2024-03-10",
+      "reading_time": 40,
+      "hashtags": {
+        "genres": ["Fantasy", "Adventure"],
+        "themes": ["Quest", "Magic"]
+      }
+    },
+    {
+      "id": 13579,
+      "cover": "https://example.com/cover_image_4.jpg",
+      "title": "Echoes of Eternity",
+      "author": "Benjamin Lee",
+      "author_img": "https://example.com/author_image_benjamin.jpg",
+      "posted_date": "2024-03-09",
+      "reading_time": 35,
+      "hashtags": {
+        "genres": ["Fantasy", "Romance"],
+        "themes": ["Time Travel", "Destiny"]
+      }
+    },
+    {
+      "id": 97531,
+      "cover": "https://example.com/cover_image_5.jpg",
+      "title": "The Enigma of Cipher Island",
+      "author": "Jessica Taylor",
+      "author_img": "https://example.com/author_image_jessica.jpg",
+      "posted_date": "2024-03-08",
+      "reading_time": 45,
+      "hashtags": {
+        "genres": ["Mystery", "Thriller"],
+        "themes": ["Suspense", "Cryptology"]
+      }
+    }
+  ]
+  
