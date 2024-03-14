@@ -7,14 +7,25 @@ import Blogs from './Component/Blogs/Blogs'
 import Bookmark from './Component/Bookmarks/Bookmark'
 
 function App() {
+ const [bookmarks,setbookmarks]=useState([])
+ const [readingTime,setReadingTime]=useState(0)
+ const handleAddBookmark= blog =>{
+  const newBookmark=[...bookmarks,blog];
+  setbookmarks(newBookmark)
+ }
 
+  const handleMarkAsRead=time =>{
+    setReadingTime(time+readingTime);
+  }
+
+ 
   return (
     <>
       
       <Header></Header>
-     <div className='md:flex'>
-     <Blogs></Blogs>
-     <Bookmark></Bookmark>
+     <div className='md:flex max-w-7xl mx-auto'>
+     <Blogs handleMarkAsRead={handleMarkAsRead} handleAddBookmark={handleAddBookmark}></Blogs>
+     <Bookmark bookmarks={bookmarks} readingTime={readingTime}></Bookmark>
      </div>
       
     </>
